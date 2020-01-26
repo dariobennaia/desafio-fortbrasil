@@ -36,9 +36,14 @@ class Timer extends React.Component {
   }
 
   handleCalcTimer = () => {
-    const { start, end } = this.state;    
-    const result = (end - start) / 1000;
-    return parseFloat(result.toFixed(2));
+    const { value, start, end } = this.state;    
+    const calc1 = (end - start) / 1000;
+    // calculo do tempo de acordo com a quantidade de caracteres informados
+    const calc2 = value.length / 100;
+    return {
+      calc1: parseFloat(calc1.toFixed(2)),
+      calc2: parseFloat(calc2.toFixed(2)),
+    }
   }
 
   handleRegisterTimer = e => {

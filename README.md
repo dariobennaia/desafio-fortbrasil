@@ -33,6 +33,15 @@ decimais.</p>
 | galopeeeeeeeeeeeeeeeeeira | 0.25 |
 | galopeeira | 0.10 |
 
+## Resultados
+
+<div align="justify">
+<p>Bom, os resultados obtidos com o teste serão colocados abaixo, lembrando que foram colocados dois tempos, sendo eles o <b>Tempo Real</b> que mostra o tempo que a pessoa levou para digitar a palavra inteira e o <b>Tempo (Com base na quantidade de letras)</b> como o próprio nome já diz, basicamente é o tempo calculado com base na quantidade de letras da palavra digitada, levando em consideração o enunciado do desafio, de que cada letra leva em média <b>1 centesimo</b> de segundo de duração. </p>
+</div>
+
+| Palavra	| Tempo (Real) | Tempo (Com base na quantidade de palavras) |
+| :--- | :--- | ---: |
+| galopeiraaaaaaaaaaaaaaaaaaaaaa |	3.16 | 0.3 |
 
 ### `Instalação`
 

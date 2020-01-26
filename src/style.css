@@ -24,14 +24,15 @@ main {
 }
 
 main .content:nth-child(1) {
-  padding: 50px 50px;
+  width: 400px;
+  padding: 25px 25px;
   background-color: #fff;
 }
 
 main .content:nth-child(2) {
-  padding: 50px 50px;
-  margin-left: 50px;
-  width: 500px;
+  padding: 25px 25px;
+  margin-left: 30px;
+  width: 600px;
   background-color: #fff;  
 }
 /* buttons */
@@ -126,6 +127,7 @@ td, th  {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+  font-size: 12px;
 }
 
 tbody tr:nth-child(even) {

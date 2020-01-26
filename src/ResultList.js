@@ -8,14 +8,16 @@ class ResultList extends React.Component {
         <thead>
           <tr>
             <th>Palavra</th>
-            <th>Tempo</th>
+            <th>Tempo (Real)</th>
+            <th>Tempo (Com base na quantidade de letras)</th>
           </tr>
         </thead>
         <tbody>
           {results.length > 0 && (results.map(v => (<tr key={v.value}>
             <td>{v.value}</td>
-            <td>{v.time}</td>
-          </tr>))) || (<tr><td colSpan="2">Nenhuma informação</td></tr>)}
+            <td>{v.time.calc1}</td>
+            <td>{v.time.calc2}</td>
+          </tr>))) || (<tr><td colSpan="3">Nenhuma informação</td></tr>)}
         </tbody>            
       </table>             
     );

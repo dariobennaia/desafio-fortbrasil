@@ -16,7 +16,12 @@ class Attempts extends React.Component {
   handleSave = e => {
     e.preventDefault();
     const { attempts } = this.state;
-    this.props.saveAttempts(attempts);
+
+    if (!attempts || parseInt(attempts) <= 0) {
+      return alert("informe a quantidade de tentativas!");
+    }
+
+    return this.props.saveAttempts(attempts);
   }
 
   render() {
