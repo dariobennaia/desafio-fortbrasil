@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  desafio:
+    image: desafio-02
+    container_name: desafio-02
+    build: .
+    ports:
+      - 3010:3000
+    restart: always
+    stdin_open: true
+    tty: true

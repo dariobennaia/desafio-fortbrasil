@@ -43,14 +43,38 @@ decimais.</p>
 | :--- | :--- | ---: |
 | galopeiraaaaaaaaaaaaaaaaaaaaaa |	3.16 | 0.3 |
 
-### `Instalação`
 
-Para rodar o projeto e realizar os testes, use os comandos abaixo.
+## Rodando o projeto (desenvolvimento)
 
-```
+1. Para rodar o projeto e realizar os testes, use os comandos abaixo.
+
+### Localmente (node + yarn)
+
+2. Crie um .env com as variáveis de ambiente se baseando no arquivo `.env-example`.
+
+3. Siga o procedimento abaixo
+
+```bash
+# instalação das dependencias
 $ yarn install
-```
-e
-```
+
+# modo "watch" (hot reloading)
 $ yarn start
+```
+
+### No Docker (docker-compose)
+
+Para rodar com o docker-compose será necessário ter ele e o docker instalados
+localmente. Instruções de como fazê-lo podem ser encontradas na documentação
+oficial do Docker.
+
+- [Docker](https://docs.docker.com/install/)
+- [docker-compose](https://docs.docker.com/compose/install/)
+
+```bash
+# faça o build
+$ docker-compose build
+
+# suba o contêiner
+$ docker-compose up -d
 ```
