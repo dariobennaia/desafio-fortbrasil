@@ -43,6 +43,9 @@ decimais.</p>
 | :--- | :--- | ---: |
 | galopeiraaaaaaaaaaaaaaaaaaaaaa |	3.16 | 0.3 |
 
+## Demonstração
+
+Link do projeto rodando em uma VPS - [Desafio](http://157.245.249.89:3010)
 
 ## Rodando o projeto (desenvolvimento)
 
