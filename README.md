@@ -1,68 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Desafio - 02 (FortBrasil)
+<div align="justify">
+<p>Certo dia, os irmãos Little Chitão e Xor Or Oh, exímios digitadores, fizeram um desafio,
+para ver quem era o melhor na digitação. Para isto, conseguiram um computador que
+não processa teclas pressionadas, ou seja, se for para digitar a mesma letra duas vezes
+seguidas, precisa pressionar a tecla duas vezes, visto que, pressionar a tecla por mais
+tempo, não adianta. Também mediram o tempo de uma tecla pressionada, que foi de,
+exatamente, um centésimo de segundo. O desafio seria quem digitasse a palavra
+“galopeira”, formada por mais letras e, mas ambos eram muito bons, e chegava num
+ponto que não era possível contar quantas letras haviam sido digitadas. Então,
+pediram a sua ajuda para escrever um programa que verifique a palavra digitada e veja
+quanto tempo foi gasto para a digitação.</p>
 
-## Available Scripts
+<p>Escreva um programa que, dada uma palavra digitada, informe quanto tempo foi gasto
+para ser digitada.</p>
 
-In the project directory, you can run:
+**Entrada:**
 
-### `yarn start`
+<p>Um número inteiro C será informado, que será a quantidade de casos de teste. Cada
+caso tem uma palavra, de, no mínimo, 9 e, no máximo 10000 letras.</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Saída:**
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<p>Para cada caso de teste, imprima um número T, que é o tempo gasto, em segundos,
+para digitar a palavra do respectivo caso de teste, com aproximação de duas casas
+decimais.</p>
+</div>
 
-### `yarn test`
+| Exemplo de Entrada | Exemplo de Saída |
+| :--- | ---: |
+| 3 | |
+| galopeira     | 0.09 |
+| galopeeeeeeeeeeeeeeeeeira | 0.25 |
+| galopeeira | 0.10 |
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### `Instalação`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para rodar o projeto e realizar os testes, use os comandos abaixo.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```
+$ yarn install
+```
+e
+```
+$ yarn start
+```
